@@ -1,0 +1,688 @@
+{
+    "masterData": [
+        {
+            "barcode": "8901786101009",
+            "name": "Everest Garam Masala 100 g",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 100.0,
+            "paidCostPerQuantity": 95.0
+        },
+        {
+            "barcode": "8909106011014",
+            "name": "Active Wheel Lemon & Jasmine Detergent Powder 100 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 9.26
+        },
+        {
+            "barcode": "8902102163671",
+            "name": "Exo Touch & Shine Anti-Bacterial Round Dishwash Bar 700 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 86.0,
+            "sellingPerQuantity": 86.0,
+            "paidCostPerQuantity": 79.63
+        },
+        {
+            "barcode": "8902102163664",
+            "name": "Exo Touch & Shine Anti-Bacterial Dishwash Bar 700 g (Pack of 2)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 172.0,
+            "sellingPerQuantity": 172.0,
+            "paidCostPerQuantity": 159.24
+        },
+        {
+            "barcode": "8901030907449",
+            "name": "Hamam Neem Tulsi & Aloe Vera Bathing Soap (100g)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 42.0,
+            "sellingPerQuantity": 42.0,
+            "paidCostPerQuantity": 38.47
+        },
+        {
+            "barcode": "8901396323549",
+            "name": "Dettol LiquidHand WashSensitive (200ml)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 99.0,
+            "sellingPerQuantity": 99.0,
+            "paidCostPerQuantity": 90.51
+        },
+        {
+            "barcode": "8901030761195",
+            "name": "Rin Ala Fabric Whitener 500 ml",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 89.0,
+            "sellingPerQuantity": 86.39,
+            "paidCostPerQuantity": 80.3
+        },
+        {
+            "barcode": "8901396165224",
+            "name": "Harpic Power Plus Toilet Cleaner Marine (500ml)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 115.0,
+            "sellingPerQuantity": 111.553,
+            "paidCostPerQuantity": 103.51
+        },
+        {
+            "barcode": "4987176073020",
+            "name": "Head & Shoulders Cool Menthol Shampoo (180ml)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 205.0,
+            "sellingPerQuantity": 198.487,
+            "paidCostPerQuantity": 183.29
+        },
+        {
+            "barcode": "4103040016584",
+            "name": "Sebamed Anti-Hair Loss Shampoo (200ml)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 740.0,
+            "sellingPerQuantity": 715.583,
+            "paidCostPerQuantity": 658.61
+        },
+        {
+            "barcode": "8901157025071",
+            "name": "HIT Cockroach Killer Spray 200 ml",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 105.0,
+            "sellingPerQuantity": 101.535,
+            "paidCostPerQuantity": 93.45
+        },
+        {
+            "barcode": "8901314786241",
+            "name": "Colgate Strong Teeth Dental Cream Toothpaste 16 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 115.773,
+            "paidCostPerQuantity": 105.91
+        },
+        {
+            "barcode": "8909106022058",
+            "name": "Comfort Fabric Conditioners Morning Fresh (430ml)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 115.458,
+            "paidCostPerQuantity": 104.86
+        },
+        {
+            "barcode": "8901396146001",
+            "name": "Lizol Disinfectant Surface Cleaner Citrus (200 ml)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 48.0,
+            "sellingPerQuantity": 46.167,
+            "paidCostPerQuantity": 41.89
+        },
+        {
+            "barcode": "8909106017986",
+            "name": "Vim Lemon Dishwash Liquid 750 ml",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 199.0,
+            "sellingPerQuantity": 191.296,
+            "paidCostPerQuantity": 173.32
+        },
+        {
+            "barcode": "8901396153009",
+            "name": "Harpic Plus Bleach (500ml)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 115.0,
+            "sellingPerQuantity": 110.407,
+            "paidCostPerQuantity": 99.69
+        },
+        {
+            "barcode": "8901030764349",
+            "name": "Dove Hair Therapy Dandruff Care Shampoo (340ml)",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 410.0,
+            "sellingPerQuantity": 393.173,
+            "paidCostPerQuantity": 353.91
+        },
+        {
+            "barcode": "8904043901015",
+            "name": "Tata Iodised Salt 1 kg",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 28.695,
+            "paidCostPerQuantity": 25.65
+        },
+        {
+            "barcode": "8909106018006",
+            "name": "Vim Lemon Dishwash Liquid Gel 500 ml",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 125.0,
+            "sellingPerQuantity": 119.378,
+            "paidCostPerQuantity": 106.26
+        },
+        {
+            "barcode": "8901042954882",
+            "name": "MTR Bisibele Bhath Masala (100g)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 80.0,
+            "sellingPerQuantity": 76.4,
+            "paidCostPerQuantity": 68.0
+        },
+        {
+            "barcode": "7622202309830",
+            "name": "Bournvita 200 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 138.0,
+            "sellingPerQuantity": 131.79,
+            "paidCostPerQuantity": 117.3
+        },
+        {
+            "barcode": "8901396153306",
+            "name": "Harpic Lemon Disinfectant Bathroom Cleaner 500 ml",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 115.0,
+            "sellingPerQuantity": 109.822,
+            "paidCostPerQuantity": 97.74
+        },
+        {
+            "barcode": "8901571004829",
+            "name": "Sensodyne Rapid Relief Tooth Paste (40g)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 114.585,
+            "paidCostPerQuantity": 101.95
+        },
+        {
+            "barcode": "8902102163961",
+            "name": "Exo Dish Wash Bar Pouch (90Gx3+1 )",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 28.644,
+            "paidCostPerQuantity": 25.48
+        },
+        {
+            "barcode": "8906005274168",
+            "name": "Cetaphil Hydrating Lotion 30 g",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 260.0,
+            "sellingPerQuantity": 240.497,
+            "paidCostPerQuantity": 216.66
+        },
+        {
+            "barcode": "4987176044365",
+            "name": "Ariel Detergent Powder 90 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 8.3
+        },
+        {
+            "barcode": "8901030695421",
+            "name": "Surf Excel Matic Front Load Liquid Detergent 2 L",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 480.0,
+            "sellingPerQuantity": 411.16,
+            "paidCostPerQuantity": 393.95
+        },
+        {
+            "barcode": "69197240",
+            "name": "Sri Bhagyalakshmi Bansi Sooji 500 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 38.0,
+            "sellingPerQuantity": 34.85,
+            "paidCostPerQuantity": 31.0
+        },
+        {
+            "barcode": "8901030978456",
+            "name": "Vaseline Intensive Care Cocoa Glow Body Lotion 90 ml",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 105.0,
+            "sellingPerQuantity": 96.2475,
+            "paidCostPerQuantity": 85.55
+        },
+        {
+            "barcode": "8901042968711",
+            "name": "MTR Asafoetida / Hing Compounded (50g)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 90.0,
+            "sellingPerQuantity": 81.963,
+            "paidCostPerQuantity": 72.14
+        },
+        {
+            "barcode": "8904271200737",
+            "name": "Mr Muscle Kiwi Dranex Drain Cleaner 50 g (Pack of 6)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 165.0,
+            "sellingPerQuantity": 149.016,
+            "paidCostPerQuantity": 129.48
+        },
+        {
+            "barcode": "4987176184849",
+            "name": "Whisper Choice Sanitary Napkin with Wings (XL) 6 pads",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 42.0,
+            "sellingPerQuantity": 37.9185,
+            "paidCostPerQuantity": 32.93
+        },
+        {
+            "barcode": "8902519001177",
+            "name": "ITCCMPULSENOTEBOOKSINGLELINE302PG210",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 170.0,
+            "sellingPerQuantity": 151.559,
+            "paidCostPerQuantity": 129.02
+        },
+        {
+            "barcode": "3499320010993",
+            "name": "Cetaphil Sun SPF30 Very High Protection Light Gel (100ml)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 1150.0,
+            "sellingPerQuantity": 1020.6115,
+            "paidCostPerQuantity": 862.47
+        },
+        {
+            "barcode": "5010394984584",
+            "name": "Pedigree Dentastix Daily Oral Care Dog Treats for Medium Breed 180 g (7 Sticks)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 210.0,
+            "sellingPerQuantity": 185.0565,
+            "paidCostPerQuantity": 154.57
+        },
+        {
+            "barcode": "8901012165829",
+            "name": "Stayfree Secure Cottony Dry XL Sanitary Pads 18 pcs",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 135.0,
+            "sellingPerQuantity": 116.105,
+            "paidCostPerQuantity": 97.21
+        },
+        {
+            "barcode": "8902689383158",
+            "name": "Fine Life Tissue Roll 200 Pulls (1pc x 6)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 560.0,
+            "sellingPerQuantity": 206.92,
+            "paidCostPerQuantity": 288.4
+        },
+        {
+            "barcode": "8902656702616",
+            "name": "Revlon Flex Body Building Protein Shampoo Normal To Dry Hair 592 ml Pet",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 315.0,
+            "sellingPerQuantity": 236.255,
+            "paidCostPerQuantity": 157.51
+        },
+        {
+            "barcode": "8908017470002",
+            "name": "Skinstone Sensual Lavender Advance Premium Hand Wash (500ml)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 225.0,
+            "sellingPerQuantity": 164.204,
+            "paidCostPerQuantity": 73.01
+        },
+        {
+            "barcode": "8908017470033",
+            "name": "Skinstone Vanilla Advance Premium Hand Wash (500ml)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 225.0,
+            "sellingPerQuantity": 164.204,
+            "paidCostPerQuantity": 73.01
+        },
+        {
+            "barcode": "4971850090984",
+            "name": "Casio Calculator Dj120D",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 795.0,
+            "sellingPerQuantity": 795.0,
+            "paidCostPerQuantity": 715.0
+        },
+        {
+            "barcode": "Parent-8901491503051",
+            "name": "Lays West Indies Hot N Sweet Chilli (20g Pack of 10)",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 100.0,
+            "paidCostPerQuantity": 87.01
+        },
+        {
+            "barcode": "8901491503051",
+            "name": "Lays West Indies Hot N Sweet Chilli",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 10.0
+        },
+        {
+            "barcode": "Parent-8901491502030",
+            "name": "Lay's American Style Cream N Onion Potato Chips (12g Pack of 15)",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 75.0,
+            "sellingPerQuantity": 75.0,
+            "paidCostPerQuantity": 65.26
+        },
+        {
+            "barcode": "8901491502030",
+            "name": "Lay's American Style Cream N Onion Potato Chips",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 5.0
+        },
+        {
+            "barcode": "Parent-8901491502016",
+            "name": "Lays Classic Salted Potato Chips(12.5g Pack of 15)",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 75.0,
+            "sellingPerQuantity": 75.0,
+            "paidCostPerQuantity": 65.26
+        },
+        {
+            "barcode": "8901491502016",
+            "name": "Lays Classic Salted Potato Chips",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 5.0
+        },
+        {
+            "barcode": "Parent-8901491502054",
+            "name": "Lay's West Indies Hot N Sweet Chilli (11g Pack of 15)",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 75.0,
+            "sellingPerQuantity": 75.0,
+            "paidCostPerQuantity": 65.26
+        },
+        {
+            "barcode": "8901491502054",
+            "name": "Lay's West Indies Hot N Sweet Chilli",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 5.0
+        },
+        {
+            "barcode": "581038267",
+            "name": "Britannia Bourbon Cream Biscuit (50g, Pack of 10)",
+            "quantity": 7,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 100.0,
+            "paidCostPerQuantity": 88.66
+        },
+        {
+            "barcode": "8901063139329",
+            "name": "Britannia Bourbon Cream Biscuit",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 10.0
+        },
+        {
+            "barcode": "8904083302063",
+            "name": "Milky Mist Strawberry Fruit Yogurt 100 g (Cup)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 24.91
+        },
+        {
+            "barcode": "8901972058629",
+            "name": "Dukes Waffy Orange Wafers 60 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 50.0,
+            "sellingPerQuantity": 50.0,
+            "paidCostPerQuantity": 25.0
+        },
+        {
+            "barcode": "Parent-8901491365666",
+            "name": "Kurkure Puffcorn Yummy Cheese (15g Pack of 15)",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 75.0,
+            "sellingPerQuantity": 75.0,
+            "paidCostPerQuantity": 65.25
+        },
+        {
+            "barcode": "8901491365666",
+            "name": "Kurkure Puffcorn Yummy Cheese ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 5.0
+        },
+        {
+            "barcode": "8901972058643",
+            "name": "Dukes Waffy Strawberry Wafers 60 g",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 50.0,
+            "sellingPerQuantity": 50.0,
+            "paidCostPerQuantity": 25.0
+        },
+        {
+            "barcode": "7622202215995",
+            "name": "Cadbury Fuse Chocolate bar 45 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 45.0,
+            "sellingPerQuantity": 45.0,
+            "paidCostPerQuantity": 38.25
+        },
+        {
+            "barcode": "581040325",
+            "name": "Nestle Kitkat 2F Chocolate coaated Wafer (18.5g Pack of 30)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 600.0,
+            "sellingPerQuantity": 600.0,
+            "paidCostPerQuantity": 537.4
+        },
+        {
+            "barcode": "8901058016116",
+            "name": "Nestle Kitkat 2F Chocolate coaated Wafer",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 20.0,
+            "sellingPerQuantity": 20.0,
+            "paidCostPerQuantity": 20.0
+        },
+        {
+            "barcode": "8901063363922",
+            "name": "Britannia Strawberry Muffills 35 g (With Egg)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 9.3
+        },
+        {
+            "barcode": "8901063362741",
+            "name": "Britannia Fruit Cake 50 g (With Egg)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 15.0,
+            "sellingPerQuantity": 15.0,
+            "paidCostPerQuantity": 13.95
+        },
+        {
+            "barcode": "8908008674808",
+            "name": "Nabati Richoco Choco Cream Wafer Biscuits (33g)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 8.8
+        },
+        {
+            "barcode": "8901719127113",
+            "name": "Parle Platina Hide & Seek Milano Chocolate Chip Biscuits 150 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 120.0,
+            "paidCostPerQuantity": 60.0
+        },
+        {
+            "barcode": "8901571010790",
+            "name": "Eno Lemon Flavour Fruit Salt 5 g (Pack of 6)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 49.1
+        },
+        {
+            "barcode": "581040097",
+            "name": "Dove Daily Shine Shampoo 5.5 ml (Pack of 48)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 96.0,
+            "sellingPerQuantity": 96.0,
+            "paidCostPerQuantity": 72.6
+        },
+        {
+            "barcode": "8901030996375",
+            "name": "Dove Daily Shine Shampoo 5.5 ml ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 2.0,
+            "sellingPerQuantity": 2.0,
+            "paidCostPerQuantity": 2.0
+        },
+        {
+            "barcode": " ammmlost-barcode",
+            "name": "Meera Herbal Hair Wash Powder Pouch (5g Pack of 50)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 200.0,
+            "sellingPerQuantity": 200.0,
+            "paidCostPerQuantity": 172.93
+        },
+        {
+            "barcode": "8902979023146",
+            "name": "Meera Herbal Hair Wash Powder Pouch sachet",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 4.0,
+            "sellingPerQuantity": 4.0,
+            "paidCostPerQuantity": 4.0
+        },
+        {
+            "barcode": "581038677",
+            "name": "Meera Hairfall Care Shampoo Shikakai & Badam (6ml, Pack of 60)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 120.0,
+            "paidCostPerQuantity": 99.0
+        },
+        {
+            "barcode": "8902979022682",
+            "name": "Meera Hairfall Care Shampoo Shikakai & Badam Schachet",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 2.0,
+            "sellingPerQuantity": 2.0,
+            "paidCostPerQuantity": 2.0
+        },
+        {
+            "barcode": "parent-8901023007408",
+            "name": "Godrej No. 1 Sandal & Turmeric Soap 100 g (Buy 4 Get 1 Free)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 140.0,
+            "sellingPerQuantity": 140.0,
+            "paidCostPerQuantity": 122.01
+        },
+        {
+            "barcode": "8901023007408",
+            "name": "Godrej No. 1 Sandal & Turmeric Soap 100 g",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 35.0,
+            "paidCostPerQuantity": 35.0
+        },
+        {
+            "barcode": "8903183302508",
+            "name": "ITC Octane Gel Pen Blue & Black Assorted Jar (25pc)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 250.0,
+            "sellingPerQuantity": 250.0,
+            "paidCostPerQuantity": 175.01
+        },
+        {
+            "barcode": "octane-gel-8903183302508",
+            "name": "ITC Octane Gel Pen Blue & Black Assorted Jar (25pc)",
+            "quantity": 40,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 10.0
+        },
+        {
+            "barcode": "8901324010664",
+            "name": "apsara rubber",
+            "quantity": 20,
+            "unit": "NA",
+            "mrpPerQuantity": 3.0,
+            "sellingPerQuantity": 3.0,
+            "paidCostPerQuantity": 3.0
+        },
+        {
+            "barcode": "8901324580020",
+            "name": "natraja scale",
+            "quantity": 10,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 5.0
+        }
+    ]
+}
