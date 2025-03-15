@@ -1,0 +1,12 @@
+[Unit]
+Description=Inventory Application Service with Firefox Browser
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+ExecStart=/bin/bash /home/YOUR_USERNAME/Desktop/workspace/front-end/inventory/start_app.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
