@@ -658,6 +658,654 @@
             "paidCostPerQuantity": 175.01
         },
         {
+            "barcode": "8901786101009",
+            "name": "Everest Garam Masala 100 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 100.0,
+            "paidCostPerQuantity": 95.0
+        },
+        {
+            "barcode": "8901786130504",
+            "name": "Everest Sabji Masala 50 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 38.0,
+            "sellingPerQuantity": 38.0,
+            "paidCostPerQuantity": 36.1
+        },
+        {
+            "barcode": "8901262151863",
+            "name": "Amul Fresh Cream 250 ml (Tetra Pak)",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 68.0,
+            "sellingPerQuantity": 68.0,
+            "paidCostPerQuantity": 64.09
+        },
+        {
+            "barcode": "8902102125013",
+            "name": "Henko Stain Champion Detergent Bar 250 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 35.0,
+            "paidCostPerQuantity": 32.59
+        },
+        {
+            "barcode": "8909106022478",
+            "name": "Surf Excel Detergent Bar 80 g",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 9.16
+        },
+        {
+            "barcode": "7622201448837",
+            "name": "Cadbury Dairy Milk Shots Chocolate (3.6g x 58)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 116.0,
+            "sellingPerQuantity": 112.652,
+            "paidCostPerQuantity": 104.84
+        },
+        {
+            "barcode": "8901058005028",
+            "name": "Maggi Nutri-licious Masala Instant Oats Noodles 294 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 140.0,
+            "sellingPerQuantity": 135.959,
+            "paidCostPerQuantity": 126.53
+        },
+        {
+            "barcode": "8901786171002",
+            "name": "Everest Tandoori Chicken Masala 100 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 92.0,
+            "sellingPerQuantity": 89.24,
+            "paidCostPerQuantity": 82.8
+        },
+        {
+            "barcode": "8901042954790",
+            "name": "MTR Puliogare Powder 100 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 70.0,
+            "sellingPerQuantity": 67.843,
+            "paidCostPerQuantity": 62.81
+        },
+        {
+            "barcode": "8901499010704",
+            "name": "Kellogg's Chocos Cereals (110g)",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 75.0,
+            "sellingPerQuantity": 72.651,
+            "paidCostPerQuantity": 67.17
+        },
+        {
+            "barcode": "8901058003802",
+            "name": "Nestle EveryDay Dairy Whitener 15 g (Pouch)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 9.682,
+            "paidCostPerQuantity": 8.94
+        },
+        {
+            "barcode": "8901030897542",
+            "name": "Kissan Fresh Tomato Ketchup 90 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 15.0,
+            "sellingPerQuantity": 14.481,
+            "paidCostPerQuantity": 13.27
+        },
+        {
+            "barcode": "8901440013501",
+            "name": "Eastern Kabab Masala Powder (100g)",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 55.0,
+            "sellingPerQuantity": 53.095,
+            "paidCostPerQuantity": 48.65
+        },
+        {
+            "barcode": "8901088068772",
+            "name": "Saffola Masala Oats Curry & Pepper Masala (38g)",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 18.0,
+            "sellingPerQuantity": 17.355,
+            "paidCostPerQuantity": 15.85
+        },
+        {
+            "barcode": "8901440013082",
+            "name": "Eastern Chicken Masala Powder (50g)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 33.0,
+            "sellingPerQuantity": 31.788,
+            "paidCostPerQuantity": 28.96
+        },
+        {
+            "barcode": "8901058000252",
+            "name": "Maggi 2-Minute Masala Instant Noodles 420 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 90.0,
+            "sellingPerQuantity": 86.673,
+            "paidCostPerQuantity": 78.91
+        },
+        {
+            "barcode": "8901058000276",
+            "name": "Maggi 2-Minute Masala Noodles 140 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 28.89,
+            "paidCostPerQuantity": 26.3
+        },
+        {
+            "barcode": "8908019747102",
+            "name": "Bhagyalaxmi Gram Flour 500 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 80.0,
+            "sellingPerQuantity": 77.0,
+            "paidCostPerQuantity": 70.0
+        },
+        {
+            "barcode": "8901042954738",
+            "name": "MTR Rasam Powder (200g)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 165.0,
+            "sellingPerQuantity": 158.394,
+            "paidCostPerQuantity": 142.98
+        },
+        {
+            "barcode": "4987176068897",
+            "name": "Tide Plus Double Power Jasmine & Rose Detergent Powder 500 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 69.0,
+            "sellingPerQuantity": 66.204,
+            "paidCostPerQuantity": 59.68
+        },
+        {
+            "barcode": "8908001105149",
+            "name": "On1y Oregano 10 g",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 99.0,
+            "sellingPerQuantity": 94.545,
+            "paidCostPerQuantity": 84.15
+        },
+        {
+            "barcode": "8904340700359",
+            "name": "Pass Pass Pulse Orange Candy (190g)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 56.096,
+            "paidCostPerQuantity": 50.24
+        },
+        {
+            "barcode": "8901786161003",
+            "name": "Everest Chicken Masala 100 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 92.0,
+            "sellingPerQuantity": 85.932,
+            "paidCostPerQuantity": 76.83
+        },
+        {
+            "barcode": "8901042954899",
+            "name": "MTR Pulao Masala Powder (100g)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 95.0,
+            "sellingPerQuantity": 88.732,
+            "paidCostPerQuantity": 79.33
+        },
+        {
+            "barcode": "8901042954721",
+            "name": "MTR Sambar Masala Powder (100g)",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 86.0,
+            "sellingPerQuantity": 80.324,
+            "paidCostPerQuantity": 71.81
+        },
+        {
+            "barcode": "8901042954769",
+            "name": "MTR Vangi Bhath Brinjal Rice Powder (100g)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 80.0,
+            "sellingPerQuantity": 74.72,
+            "paidCostPerQuantity": 66.8
+        },
+        {
+            "barcode": "8901042955254",
+            "name": "MTR Puliogare Paste 200 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 93.4,
+            "paidCostPerQuantity": 83.5
+        },
+        {
+            "barcode": "8901042954844",
+            "name": "Mtr Jeera Pwd 100G Pp",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 85.0,
+            "sellingPerQuantity": 79.388,
+            "paidCostPerQuantity": 70.97
+        },
+        {
+            "barcode": "8901207025365",
+            "name": "Dabur Honey 250 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 125.0,
+            "sellingPerQuantity": 116.704,
+            "paidCostPerQuantity": 104.26
+        },
+        {
+            "barcode": "8901786061006",
+            "name": "Everest Chaat Masala 100 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 85.0,
+            "sellingPerQuantity": 79.144,
+            "paidCostPerQuantity": 70.36
+        },
+        {
+            "barcode": "8901786100507",
+            "name": "Everest Garam Masala 50 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 52.0,
+            "sellingPerQuantity": 48.276,
+            "paidCostPerQuantity": 42.69
+        },
+        {
+            "barcode": "8901786260508",
+            "name": "Everest Black Pepper Powder 50 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 78.0,
+            "sellingPerQuantity": 72.412,
+            "paidCostPerQuantity": 64.03
+        },
+        {
+            "barcode": "8901786151004",
+            "name": "Everest Meat Masala 100 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 92.0,
+            "sellingPerQuantity": 85.408,
+            "paidCostPerQuantity": 75.52
+        },
+        {
+            "barcode": "80177173",
+            "name": "Nutella Hazelnut Spread With Cocoa 350 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 399.0,
+            "sellingPerQuantity": 368.3,
+            "paidCostPerQuantity": 322.25
+        },
+        {
+            "barcode": "8901042954820",
+            "name": "MTR Turmeric Powder 100 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 40.0,
+            "sellingPerQuantity": 36.8,
+            "paidCostPerQuantity": 32.0
+        },
+        {
+            "barcode": "8901042954752",
+            "name": "Mtr Vangi Bhath Powder 200G Pp",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 155.0,
+            "sellingPerQuantity": 142.596,
+            "paidCostPerQuantity": 123.99
+        },
+        {
+            "barcode": "8901361403283",
+            "name": "Scotch-Brite Silver Spark (6pc)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 107.435,
+            "paidCostPerQuantity": 94.87
+        },
+        {
+            "barcode": "8901207026553",
+            "name": "Dabur Honey Squeezy 225 g (Buy 1 Get 1 Free)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 249.0,
+            "sellingPerQuantity": 218.3,
+            "paidCostPerQuantity": 187.6
+        },
+        {
+            "barcode": "8904083300748",
+            "name": "Milky Mist Vanilla Milkshake 220 ml",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 40.0,
+            "sellingPerQuantity": 35.005,
+            "paidCostPerQuantity": 30.01
+        },
+        {
+            "barcode": "8901314310033",
+            "name": "Colgate Herbal Toothpaste 200 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 155.0,
+            "sellingPerQuantity": 135.42,
+            "paidCostPerQuantity": 115.84
+        },
+        {
+            "barcode": "8901440013099",
+            "name": "Eastern Chicken Masala (100g)",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 63.0,
+            "sellingPerQuantity": 54.81,
+            "paidCostPerQuantity": 46.62
+        },
+        {
+            "barcode": "8906082522480",
+            "name": "Kapiva Ayurveda Apple Cider Vinegar 500 ml",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 299.0,
+            "sellingPerQuantity": 259.95,
+            "paidCostPerQuantity": 220.9
+        },
+        {
+            "barcode": "8902433007712",
+            "name": "Snickers Peanut Chocolate 14 g (Pack of 12)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 199.0,
+            "sellingPerQuantity": 171.545,
+            "paidCostPerQuantity": 144.09
+        },
+        {
+            "barcode": "8901123005403",
+            "name": "Lotte Choco Pie 28 g (Pack of 12)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 170.0,
+            "sellingPerQuantity": 146.115,
+            "paidCostPerQuantity": 122.23
+        },
+        {
+            "barcode": "8901440023166",
+            "name": "Eastern Turmeric / Haldi Powder (500g)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 185.0,
+            "sellingPerQuantity": 158.95,
+            "paidCostPerQuantity": 132.9
+        },
+        {
+            "barcode": "8904152403219",
+            "name": "TOFFEEMAN Coconut Bite Toffee 300 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 85.835,
+            "paidCostPerQuantity": 71.67
+        },
+        {
+            "barcode": "8901192205261",
+            "name": "Catch Ginger Garlic Paste 200 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 50.0,
+            "sellingPerQuantity": 41.75,
+            "paidCostPerQuantity": 33.5
+        },
+        {
+            "barcode": "8901512916600",
+            "name": "Sundrop Cocoanut Almond Choco Spread (350g)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 300.0,
+            "sellingPerQuantity": 248.995,
+            "paidCostPerQuantity": 197.99
+        },
+        {
+            "barcode": "8901314308443",
+            "name": "Colgate zigzag Medium Anti Bacterial Assrted ToothBrush 6P",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 135.0,
+            "sellingPerQuantity": 110.6,
+            "paidCostPerQuantity": 86.2
+        },
+        {
+            "barcode": "8902689850773",
+            "name": "Fine Life Cassia Cinnamon (50g)",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 45.0,
+            "sellingPerQuantity": 35.755,
+            "paidCostPerQuantity": 26.51
+        },
+        {
+            "barcode": "8906022340112",
+            "name": "Varalakshmi Sabudana / Sago 500 g",
+            "quantity": 2,
+            "unit": "NA",
+            "mrpPerQuantity": 75.0,
+            "sellingPerQuantity": 58.0,
+            "paidCostPerQuantity": 41.0
+        },
+        {
+            "barcode": "8906009078014",
+            "name": "Unibic Assorted Cookies 450 g (Pack of 6)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 200.0,
+            "sellingPerQuantity": 154.175,
+            "paidCostPerQuantity": 108.35
+        },
+        {
+            "barcode": "581040099",
+            "name": "Sunfeast Dark Fantasy Chocolate Center Filled Biscuits (25g Pack of 10)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 100.0,
+            "paidCostPerQuantity": 90.04
+        },
+        {
+            "barcode": "8901725015886",
+            "name": "Sunfeast Dark Fantasy Chocolate Center Filled Biscuits",
+            "quantity": 100,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "581038863",
+            "name": "Sunfeast Bounce Tangy Orange Cream Biscuits(30g Pack of 12)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 52.56
+        },
+        {
+            "barcode": "8909081001147",
+            "name": "Sunfeast Bounce Tangy Orange Cream Biscuits",
+            "quantity": 36,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901725015275",
+            "name": "Sunfeast Dark Fantasy Choco Fills Cookies 75 g",
+            "quantity": 35,
+            "unit": "NA",
+            "mrpPerQuantity": 40.0,
+            "sellingPerQuantity": 40.0,
+            "paidCostPerQuantity": 34.83
+        },
+        {
+            "barcode": "581040674",
+            "name": "Parle Hide & Seek Chocolate Biscuits 33g Pack of 20",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 200.0,
+            "sellingPerQuantity": 200.0,
+            "paidCostPerQuantity": 187.18
+        },
+        {
+            "barcode": "8901719100369",
+            "name": "Parle Hide & Seek Chocolate Biscuits",
+            "quantity": 20,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901058004953",
+            "name": "Maggi Pichkoo Rich Tomato Ketchup 75 g",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 15.0,
+            "sellingPerQuantity": 15.0,
+            "paidCostPerQuantity": 12.58
+        },
+        {
+            "barcode": "581040636",
+            "name": "Sunfeast Moms Magic Cashew and Almond (25g, Pack of 12)",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 52.85
+        },
+        {
+            "barcode": "8901725000622",
+            "name": "Sunfeast Moms Magic Cashew and Almond",
+            "quantity": 36,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8904340700441",
+            "name": "Pulse Kachcha Aam Flavoured Candy Jar (950g)",
+            "quantity": 1,
+            "unit": "NA",
+            "mrpPerQuantity": 250.0,
+            "sellingPerQuantity": 250.0,
+            "paidCostPerQuantity": 221.12
+        },
+        {
+            "barcode": "8901063029262",
+            "name": "Britannia Jimjam Cream Biscuits 92 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 25.0,
+            "sellingPerQuantity": 25.0,
+            "paidCostPerQuantity": 22.72
+        },
+        {
+            "barcode": "8906033740963",
+            "name": "McVitie's Bourbon Delight Biscuits 100 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 14.79
+        },
+        {
+            "barcode": "8908009419347",
+            "name": "Bauli Choco Vanilla Sandwich Cake 25 g (Contains Egg)",
+            "quantity": 12,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 7.51
+        },
+        {
+            "barcode": "7622202252372",
+            "name": "Oreo Strawberry Creme Biscuits By Cadbury\n113.75 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 27.1
+        },
+        {
+            "barcode": "8901058875836",
+            "name": "Polo Mints 24 g",
+            "quantity": 5,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 8.49
+        },
+        {
+            "barcode": "7622202318771",
+            "name": "Cadbury Dairy Milk Fruit & Nut Chocolate Bar 80 g",
+            "quantity": 4,
+            "unit": "NA",
+            "mrpPerQuantity": 110.0,
+            "sellingPerQuantity": 110.0,
+            "paidCostPerQuantity": 92.09
+        },
+        {
+            "barcode": "8902433003646",
+            "name": "Galaxy Crispy Smooth Milk Chocolate Bar 18 g",
+            "quantity": 6,
+            "unit": "NA",
+            "mrpPerQuantity": 20.0,
+            "sellingPerQuantity": 20.0,
+            "paidCostPerQuantity": 17.6
+        },
+        {
+            "barcode": "8901719135323",
+            "name": "Parle Krackjack The Original Sweet And Salty Cracker Biscuits 16 Individual 700 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 120.0,
+            "paidCostPerQuantity": 106.77
+        },
+        {
+            "barcode": "8906009079813",
+            "name": "Unibic Choco Chip Cookies 500 g",
+            "quantity": 3,
+            "unit": "NA",
+            "mrpPerQuantity": 200.0,
+            "sellingPerQuantity": 200.0,
+            "paidCostPerQuantity": 98.51
+        },
+        {
             "barcode": "octane-gel-8903183302508",
             "name": "ITC Octane Gel Pen Blue & Black Assorted Jar (25pc)",
             "quantity": 40,
@@ -683,6 +1331,483 @@
             "mrpPerQuantity": 5.0,
             "sellingPerQuantity": 5.0,
             "paidCostPerQuantity": 5.0
+        },
+        {
+            "barcode": "8901058012323",
+            "name": "Kitkat ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "7622202237973",
+            "name": "Dairy Milk",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8996001312452",
+            "name": "Malkist Double Chocolatey",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901719134845",
+            "name": "parle g",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901063162549",
+            "name": "marie GOLD",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901058005080",
+            "name": "munch",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 20.0,
+            "sellingPerQuantity": 20.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901287100013",
+            "name": "Mysore Sandal Soap",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 42.0,
+            "sellingPerQuantity": 40.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901058000290",
+            "name": "Maggie 2 min noodles",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 15.0,
+            "sellingPerQuantity": 15.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8909106022478",
+            "name": "Surfexcel Bar",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906057530854",
+            "name": "medimix",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 34.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8909106022003",
+            "name": "comfort  210",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 58.0,
+            "sellingPerQuantity": 57.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901314765314",
+            "name": "Colgate Dental cream 200g",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 143.0,
+            "sellingPerQuantity": 138.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901314714299",
+            "name": "Colgate Dental cream 100g",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 69.0,
+            "sellingPerQuantity": 67.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901571005659",
+            "name": "Sensodyne 150g",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 252.0,
+            "sellingPerQuantity": 245.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901324055795",
+            "name": "Apsara Platinum",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 59.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8908003630007",
+            "name": "Tooth Brush Ajay",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 22.0,
+            "sellingPerQuantity": 21.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901030538421",
+            "name": "Vim pouch200ml",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 25.0,
+            "sellingPerQuantity": 24.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901030996177",
+            "name": "Dove Hair fall rescue ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 930.0,
+            "sellingPerQuantity": 830.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901030996122",
+            "name": "Dove Intense Repair",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 930.0,
+            "sellingPerQuantity": 830.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8904012805412",
+            "name": "Shanthala Agarbathi ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 6.0,
+            "sellingPerQuantity": 6.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901023028748",
+            "name": "Godrej rich creme ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 15.0,
+            "sellingPerQuantity": 15.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901063092860",
+            "name": "GoodDay Cashew Almond",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 5.0,
+            "sellingPerQuantity": 5.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8909106015876",
+            "name": "Horlicks",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "7622202026683",
+            "name": "Bourvita ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901324057683",
+            "name": "Apsara Matt Magic",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 70.0,
+            "sellingPerQuantity": 70.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8908021161316",
+            "name": "Kitchen Lites, Match box",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8909106018372",
+            "name": "Boost",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8908000674035",
+            "name": "Arasan Soap bar",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 26.5,
+            "sellingPerQuantity": 25.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901314507327",
+            "name": "Colgate Zig Zag toot brush ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 29.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901314507327",
+            "name": "Colgate Zig Zag toot brush ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901314878427",
+            "name": "Colgate Gentle clean",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 40.0,
+            "sellingPerQuantity": 38.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901314537669",
+            "name": "Colgate Zigzag Charcoal",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 40.0,
+            "sellingPerQuantity": 38.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906010261078",
+            "name": "Gold winner Refined sunflower oil",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 170.0,
+            "sellingPerQuantity": 150.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906032010012",
+            "name": "Ruchi gold ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 165.0,
+            "sellingPerQuantity": 140.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8908000502017",
+            "name": "Sunpure",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 185.0,
+            "sellingPerQuantity": 150.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901595862726",
+            "name": "Dark soy Sauce",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 58.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901595862733",
+            "name": "Green chilli sauce chings",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 57.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901246007483",
+            "name": "Brewed Vinegar Del Monte",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 57.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8904320002251",
+            "name": "White Vinegar",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 150.0,
+            "sellingPerQuantity": 146.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901030902932",
+            "name": "Fresh tomato Ketchup, 850g",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 120.0,
+            "sellingPerQuantity": 110.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901246005373",
+            "name": "Tomato ketchup Del monte",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 130.0,
+            "sellingPerQuantity": 120.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036670090",
+            "name": "Orange milk",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 27.0,
+            "sellingPerQuantity": 27.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036670014",
+            "name": "Blue milk",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 24.0,
+            "sellingPerQuantity": 24.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036674739",
+            "name": "Green milk 200",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 12.0,
+            "sellingPerQuantity": 12.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036670205",
+            "name": "curd 200",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 12.0,
+            "sellingPerQuantity": 12.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036670212",
+            "name": "curd 500",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 26.0,
+            "sellingPerQuantity": 26.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036674524",
+            "name": "Nandini Paneer 200",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 100.0,
+            "sellingPerQuantity": 99.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8902579001438",
+            "name": "Appy",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 10.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901396324584",
+            "name": "Detol Handwash",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 99.0,
+            "sellingPerQuantity": 97.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901314200044",
+            "name": "Brush",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 20.0,
+            "sellingPerQuantity": 20.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036670861",
+            "name": "Nandini Ghee 200 ml",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 141.0,
+            "sellingPerQuantity": 140.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8906036670878",
+            "name": "Nandini Ghee 500 ml",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 315.0,
+            "sellingPerQuantity": 304.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "8901869197240",
+            "name": "Bhagyalaxmi Bansi Suji 500g",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 38.0,
+            "sellingPerQuantity": 36.0,
+            "paidCostPerQuantity": 0
         }
     ]
 }

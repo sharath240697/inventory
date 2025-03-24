@@ -40,6 +40,7 @@ const Sales = () => {
     if (e.key === 'Enter') {
       // If Enter is pressed, process the scanned data
       const value = myRef.current.value
+      setShowQRCode(true)
       // Clear the value for the next scan (optional)
       setScannedValue(prevState => {
         const existingItem = prevState.find(item => item.barcode === value)
@@ -121,7 +122,7 @@ const Sales = () => {
         onKeyDown={handleKeyDown}
         placeholder="Scan a barcode or QR code"
       />
-      {(!showQRCode) && <button onClick={handleGenerateQRCode}>Generate Bill</button>}
+      {/* {(!showQRCode) && <button onClick={handleGenerateQRCode}>Generate Bill</button>} */}
       <br />
       <br />
 

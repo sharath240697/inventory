@@ -3,10 +3,14 @@ Description=Inventory Application Service with Firefox Browser
 After=network.target
 
 [Service]
-Type=simple
-User=YOUR_USERNAME
-ExecStart=/bin/bash /home/YOUR_USERNAME/Desktop/workspace/front-end/inventory/start_app.sh
+Type=forking
+User=manjushri
+ExecStartPre=/bin/sleep 10
+ExecStart=/bin/bash /home/manjushri/Desktop/workspace/inventory/start_app.sh
+ExecStop=/bin/bash /home/manjushri/Desktop/workspace/inventory/stop_app.sh
 Restart=on-failure
+StandardOutput=journal
+StandardError=journal
 
 [Install]
 WantedBy=multi-user.target
