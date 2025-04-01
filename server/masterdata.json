@@ -663,7 +663,7 @@
             "quantity": 5,
             "unit": "NA",
             "mrpPerQuantity": 100.0,
-            "sellingPerQuantity": 100.0,
+            "sellingPerQuantity": 98.0,
             "paidCostPerQuantity": 95.0
         },
         {
@@ -789,7 +789,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 33.0,
-            "sellingPerQuantity": 31.788,
+            "sellingPerQuantity": 31.0,
             "paidCostPerQuantity": 28.96
         },
         {
@@ -798,7 +798,7 @@
             "quantity": 5,
             "unit": "NA",
             "mrpPerQuantity": 90.0,
-            "sellingPerQuantity": 86.673,
+            "sellingPerQuantity": 88.0,
             "paidCostPerQuantity": 78.91
         },
         {
@@ -816,7 +816,7 @@
             "quantity": 6,
             "unit": "NA",
             "mrpPerQuantity": 80.0,
-            "sellingPerQuantity": 77.0,
+            "sellingPerQuantity": 71.0,
             "paidCostPerQuantity": 70.0
         },
         {
@@ -825,7 +825,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 165.0,
-            "sellingPerQuantity": 158.394,
+            "sellingPerQuantity": 155.0,
             "paidCostPerQuantity": 142.98
         },
         {
@@ -861,7 +861,7 @@
             "quantity": 6,
             "unit": "NA",
             "mrpPerQuantity": 92.0,
-            "sellingPerQuantity": 85.932,
+            "sellingPerQuantity": 84.0,
             "paidCostPerQuantity": 76.83
         },
         {
@@ -879,7 +879,7 @@
             "quantity": 4,
             "unit": "NA",
             "mrpPerQuantity": 86.0,
-            "sellingPerQuantity": 80.324,
+            "sellingPerQuantity": 78.0,
             "paidCostPerQuantity": 71.81
         },
         {
@@ -888,7 +888,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 80.0,
-            "sellingPerQuantity": 74.72,
+            "sellingPerQuantity": 72.0,
             "paidCostPerQuantity": 66.8
         },
         {
@@ -933,7 +933,7 @@
             "quantity": 5,
             "unit": "NA",
             "mrpPerQuantity": 52.0,
-            "sellingPerQuantity": 48.276,
+            "sellingPerQuantity": 45.0,
             "paidCostPerQuantity": 42.69
         },
         {
@@ -960,7 +960,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 399.0,
-            "sellingPerQuantity": 368.3,
+            "sellingPerQuantity": 365.0,
             "paidCostPerQuantity": 322.25
         },
         {
@@ -969,7 +969,7 @@
             "quantity": 6,
             "unit": "NA",
             "mrpPerQuantity": 40.0,
-            "sellingPerQuantity": 36.8,
+            "sellingPerQuantity": 35.0,
             "paidCostPerQuantity": 32.0
         },
         {
@@ -978,7 +978,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 155.0,
-            "sellingPerQuantity": 142.596,
+            "sellingPerQuantity": 140.0,
             "paidCostPerQuantity": 123.99
         },
         {
@@ -987,7 +987,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 120.0,
-            "sellingPerQuantity": 107.435,
+            "sellingPerQuantity": 100.0,
             "paidCostPerQuantity": 94.87
         },
         {
@@ -1014,7 +1014,7 @@
             "quantity": 6,
             "unit": "NA",
             "mrpPerQuantity": 155.0,
-            "sellingPerQuantity": 135.42,
+            "sellingPerQuantity": 130.0,
             "paidCostPerQuantity": 115.84
         },
         {
@@ -1023,7 +1023,7 @@
             "quantity": 5,
             "unit": "NA",
             "mrpPerQuantity": 63.0,
-            "sellingPerQuantity": 54.81,
+            "sellingPerQuantity": 53.0,
             "paidCostPerQuantity": 46.62
         },
         {
@@ -1032,7 +1032,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 299.0,
-            "sellingPerQuantity": 259.95,
+            "sellingPerQuantity": 255.0,
             "paidCostPerQuantity": 220.9
         },
         {
@@ -1059,7 +1059,7 @@
             "quantity": 1,
             "unit": "NA",
             "mrpPerQuantity": 185.0,
-            "sellingPerQuantity": 158.95,
+            "sellingPerQuantity": 160.0,
             "paidCostPerQuantity": 132.9
         },
         {
@@ -1077,7 +1077,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 50.0,
-            "sellingPerQuantity": 41.75,
+            "sellingPerQuantity": 40.0,
             "paidCostPerQuantity": 33.5
         },
         {
@@ -1095,7 +1095,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 135.0,
-            "sellingPerQuantity": 110.6,
+            "sellingPerQuantity": 110.0,
             "paidCostPerQuantity": 86.2
         },
         {
@@ -1239,7 +1239,7 @@
             "quantity": 6,
             "unit": "NA",
             "mrpPerQuantity": 30.0,
-            "sellingPerQuantity": 30.0,
+            "sellingPerQuantity": 25.0,
             "paidCostPerQuantity": 14.79
         },
         {
@@ -1302,7 +1302,7 @@
             "quantity": 3,
             "unit": "NA",
             "mrpPerQuantity": 200.0,
-            "sellingPerQuantity": 200.0,
+            "sellingPerQuantity": 120.0,
             "paidCostPerQuantity": 98.51
         },
         {
@@ -1644,7 +1644,7 @@
             "quantity": 0,
             "unit": "NA",
             "mrpPerQuantity": 185.0,
-            "sellingPerQuantity": 150.0,
+            "sellingPerQuantity": 147.0,
             "paidCostPerQuantity": 0
         },
         {
@@ -1801,12 +1801,408 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "8901869197240",
-            "name": "Bhagyalaxmi Bansi Suji 500g",
+            "barcode": "8908013841035",
+            "name": "Bhagyalakshmi maida 500",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-001-1000",
+            "name": "Sugar 1KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 50.0,
+            "sellingPerQuantity": 45.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-001-500",
+            "name": "Sugar 500 gms",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 30.0,
+            "sellingPerQuantity": 25.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-001-250",
+            "name": "Sugar 250 gms",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 17.0,
+            "sellingPerQuantity": 12.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-002-2000",
+            "name": "AVALAKKI 2KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 125.0,
+            "sellingPerQuantity": 120.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-002-1000",
+            "name": "AVALAKKI 1KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 65.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-002-500",
+            "name": "AVALAKKI 500 gms",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-004-500",
+            "name": "WHOLE MOONG HESRUKAALU 500 gms",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 55.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-004-250",
+            "name": "WHOLE MOONG HESRUKAALU 250 gms",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 33.0,
+            "sellingPerQuantity": 28.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-005-500",
+            "name": "GRAM KADLEKAALU 500 gms",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 45.0,
+            "sellingPerQuantity": 40.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-005-250",
+            "name": "GRAM KADLEKAALU 250 gms",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 25.0,
+            "sellingPerQuantity": 20.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-006-500",
+            "name": "GROUNDNUT KADLEBEEJA 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 70.0,
+            "sellingPerQuantity": 65.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-006-250",
+            "name": "GROUNDNUT KADLEBEEJA 250 GMS",
             "quantity": 0,
             "unit": "NA",
             "mrpPerQuantity": 38.0,
-            "sellingPerQuantity": 36.0,
+            "sellingPerQuantity": 33.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-007-500",
+            "name": "FRIED GRAM HURUGADALE 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 55.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-007-250",
+            "name": "FRIED GRAM HURUGADALE 250 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 33.0,
+            "sellingPerQuantity": 28.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-008-1000",
+            "name": "THOOR DAL THOGARI BELE 1KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 145.0,
+            "sellingPerQuantity": 140.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-008-500",
+            "name": "THOOR DAL THOGARI BELE 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 65.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-008-250",
+            "name": "THOOR DAL THOGARI BELE 250 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 40.0,
+            "sellingPerQuantity": 35.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-009-250",
+            "name": "PEAS VANA BATANI 250 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 50.0,
+            "sellingPerQuantity": 45.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-010-500",
+            "name": "GRAM DAL KADLE BELE 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 47.0,
+            "sellingPerQuantity": 42.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-010-250",
+            "name": "GRAM DAL KADLE BELE 250 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 27.0,
+            "sellingPerQuantity": 22.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-011-1000",
+            "name": "HORSE GRAM 1 KG CLEANED",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 105.0,
+            "sellingPerQuantity": 100.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-012-500",
+            "name": "MOONG DAL HESRU KAALU 500",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 65.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-012-250",
+            "name": "MOONG DAL HESRU KAALU 250",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-013-50",
+            "name": "PEPPER MENASU 50 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 55.0,
+            "sellingPerQuantity": 50.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-014-500",
+            "name": "KABUL KADLE KAALU 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 80.0,
+            "sellingPerQuantity": 75.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-014-250",
+            "name": "KABUL KADLE KAALU 250 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 43.0,
+            "sellingPerQuantity": 38.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-016-1000",
+            "name": "RAGI POWDER RAGI ITTU 1 KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 65.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-016-500",
+            "name": "RAGI POWDER RAGI ITTU 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-017-4000",
+            "name": "BULLET RICE KOLLAM 4 KG ",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 225.0,
+            "sellingPerQuantity": 220.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-017-3000",
+            "name": "BULLET RICE KOLLAM 3 KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 170.0,
+            "sellingPerQuantity": 165.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-017-2000",
+            "name": "BULLET RICE KOLLAM 2 KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 115.0,
+            "sellingPerQuantity": 110.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-017-1000",
+            "name": "BULLET RICE KOLLAM 1 KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 60.0,
+            "sellingPerQuantity": 55.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-015-500",
+            "name": "AVAREBELE 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 67.0,
+            "sellingPerQuantity": 62.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-015-250",
+            "name": "AVAREBELE 250 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 36.0,
+            "sellingPerQuantity": 31.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-022-200",
+            "name": "HARISHINA KOMBU 200",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 65.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-018-25",
+            "name": "JEERIGE 25 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 15.0,
+            "sellingPerQuantity": 10.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-018-50",
+            "name": "JEERIGE 50 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 25.0,
+            "sellingPerQuantity": 20.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-018-100",
+            "name": "JEERIGE 100 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 45.0,
+            "sellingPerQuantity": 40.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-018-200",
+            "name": "JEERIGE 200 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 85.0,
+            "sellingPerQuantity": 80.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-003-1000",
+            "name": "BANSI RAVE 1 KG",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 65.0,
+            "sellingPerQuantity": 60.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-003-500",
+            "name": "BANSI RAVE 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-019-1000",
+            "name": "GODHI ITTU 1 KG WHOLSALE",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 50.0,
+            "sellingPerQuantity": 45.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-021-100",
+            "name": "GUNTURU MENSINKAYI 100 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 25.0,
+            "sellingPerQuantity": 20.0,
+            "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "SNS-020-500",
+            "name": "CHIROTI RAVE 500 GMS",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
             "paidCostPerQuantity": 0
         }
     ]
