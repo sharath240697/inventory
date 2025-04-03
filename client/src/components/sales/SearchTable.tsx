@@ -1,30 +1,46 @@
-import { Box, Button, Flex, FormControl, FormLabel, Input, Table, Tbody, Td, Text, Th, Thead, Tr } from "@chakra-ui/react";
+import { Box, Button, Flex, FormControl, FormLabel, Input, Spinner, Table, Tbody, Td, Text, Th, Thead, Tr } from "@chakra-ui/react";
 import { useSearch } from "../../context/SearchContext";
-import { useGetApi } from "../../hooks/useGetApi";
 import { Item_t } from "../../../types";
 import { useSales } from "../../context/SalesContext";
-
+import { useCallback, useEffect } from "react";
+import { useGetApi } from "../../hooks/useGetApi";
 
 export default function SearchTable() {
-  const { searchQuery, setSearchQuery,
-    filteredItems, setFilteredItems
-  } = useSearch();
+  const { searchQuery, setSearchQuery, filteredItems, setFilteredItems } = useSearch();
   const { setScannedValue } = useSales();
+  
+  // Only make the API call when currentSearchQuery is updated
+  const { data: searchResults, loading: isSearching } = useGetApi<{ items: Item_t[] }>(
+    searchQuery ? `http://localhost:3000/search?searchQuery=${encodeURIComponent(searchQuery)}` : ''
+  );
 
-  const { data: masterData } = useGetApi<{ masterData: Item_t[] }>('http://localhost:3000/masterdata');
-
-  const handleSearch = () => {
+  const handleSearch = useCallback(() => {
     if (!searchQuery.trim()) {
       setFilteredItems([]);
       return;
     }
+    
+    // Update the search query to trigger the API call
+    setSearchQuery(searchQuery);
+  }, [searchQuery, setFilteredItems]);
+  
+  // Update filteredItems when search results change
+  useEffect(() => {
+    if (searchResults) {
+      setFilteredItems(searchResults.items || []);
+    }
+  }, [searchResults, setFilteredItems]);
 
-    const filtered = masterData?.masterData.filter(item =>
-      item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      item.sku.toLowerCase().includes(searchQuery.toLowerCase())
-    ) || [];
-    setFilteredItems(filtered);
-  };
+  // Handle search on key events with debounce
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (searchQuery.trim()) {
+        handleSearch();
+      }
+    }, 300); // 300ms debounce
+
+    return () => clearTimeout(timer);
+  }, [searchQuery, handleSearch]);
 
   const handleClearSearch = () => {
     setSearchQuery('');
@@ -76,16 +92,20 @@ export default function SearchTable() {
         <Button
           colorScheme="blue"
           onClick={handleSearch}
+          isLoading={isSearching}
+          loadingText="Searching"
         >
           Search
         </Button>
         <Button
           colorScheme="red"
           onClick={handleClearSearch}
+          isDisabled={isSearching}
         >
           Clear
         </Button>
       </Flex>
+      {isSearching && <Spinner size="sm" ml={2} />}
 
       <Box
         overflowX="auto"

@@ -4,6 +4,7 @@ const cors = require("cors");
 const app = express();
 
 const ReceiptPrinterEncoder = require('@point-of-sale/receipt-printer-encoder');
+const { searchItems, getItem } = require('./repository/item');
 
 app.use(cors());
 app.use(express.json());
@@ -99,6 +100,36 @@ app.post("/print-barcode", async (req, res) => {
       message: 'Error generating barcode',
       error: error.message
     });
+  }
+});
+
+app.get('/search', async (req, res) => {
+  try {
+    const { searchQuery } = req.query;
+    if (!searchQuery) {
+      return res.json({ items: [] });
+    }
+
+    const filteredItems = await searchItems(searchQuery);
+    res.json({ items: filteredItems });
+  } catch (error) {
+    console.error('Error searching items:', error);
+    res.status(500).json({ items: [], error: 'Internal server error' });
+  }
+});
+
+app.get('/get-item', async (req, res) => {
+  try {
+    const { sku } = req.query;
+    if (!sku) {
+      return res.json({ item: null });
+    }
+
+    const item = await getItem(sku);
+    res.json({ item });
+  } catch (error) {
+    console.error('Error getting item:', error);
+    res.status(500).json({ item: null, error: 'Internal server error' });
   }
 });
 

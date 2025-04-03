@@ -1,10 +1,10 @@
 import { DeleteIcon } from "@chakra-ui/icons";
-import { Button, ButtonGroup, Box, FormControl, FormLabel, Input, Spacer, Stack, Text } from "@chakra-ui/react";
+import { Button, ButtonGroup, Box, FormControl, FormLabel, Input, Spacer, Spinner, Stack, Text } from "@chakra-ui/react";
 import { usePostApi } from "../../hooks/usePostApi";
 import { useSales } from "../../context/SalesContext";
-import { Item_t, ScanType } from "../../../types";
-import { useRef } from "react";
-import { useGetApi } from "../../hooks/useGetApi";
+import { ScanType } from "../../../types";
+import { useRef, useState } from "react";
+import { useSearch } from "../../context/SearchContext";
 
 interface PrintResponse {
     message: string;
@@ -15,12 +15,13 @@ interface PrintResponse {
 export default function SessionControls() {
     const postApi = usePostApi<PrintResponse>();
     const myRef = useRef<HTMLInputElement>(null);
-    const { data: masterData } = useGetApi<{ masterData: Item_t[] }>('http://localhost:3000/masterdata');
+    const [isLoading, setIsLoading] = useState(false);
         
     const { scannedValue, setScannedValue } = useSales();
+    const { setSearchQuery, setFilteredItems } = useSearch();
     const { customerName, setCustomerName, customerMobile, setCustomerMobile } = useSales();
 
-    const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    const handleKeyDown = async (e: React.KeyboardEvent<HTMLInputElement>) => {
         const value = e.currentTarget.value
         if (e.key === "Enter") {
             e.preventDefault()
@@ -28,32 +29,50 @@ export default function SessionControls() {
                 window.alert("Please enter a value")
                 return
             }
-
-            const item = masterData?.masterData.find(item => item.sku === value)
-            if (item) {
-                setScannedValue(prevState => {
-                    const existingItemIndex = prevState.findIndex(item => item.sku === value)
-                    if (existingItemIndex !== -1) {
-                        const existingItem = prevState[existingItemIndex]
-                        return [
-                            ...prevState.slice(0, existingItemIndex),
-                            {
-                                ...existingItem,
-                                quantity: existingItem.quantity + 1,
-                                price: Math.ceil((existingItem.quantity + 1) * item.sellingPerQuantity)
-                            },
-                            ...prevState.slice(existingItemIndex + 1)
-                        ]
-                    }
-                    return [...prevState, { sku: value, quantity: 1, name: item.name, unitMrp: item.mrpPerQuantity, unitPrice: Math.ceil(item.sellingPerQuantity), price: Math.ceil(item.sellingPerQuantity) }]
-                })
-            } else {
-                window.alert(`Item not found: ${value}`)
-            }
-
-            // Clear the input field safely
-            if (myRef.current) {
-                myRef.current.value = ''
+            
+            setIsLoading(true);
+            try {
+                const response = await fetch(`http://localhost:3000/get-item?sku=${encodeURIComponent(value)}`);
+                const data = await response.json();
+                
+                if (data.item) {
+                    setScannedValue(prevState => {
+                        const existingItemIndex = prevState.findIndex(item => item.sku === value)
+                        if (existingItemIndex !== -1) {
+                            const existingItem = prevState[existingItemIndex]
+                            return [
+                                ...prevState.slice(0, existingItemIndex),
+                                {
+                                    ...existingItem,
+                                    quantity: existingItem.quantity + 1,
+                                    price: Math.ceil((existingItem.quantity + 1) * data.item.sellingPerQuantity)
+                                },
+                                ...prevState.slice(existingItemIndex + 1)
+                            ]
+                        }
+                        return [...prevState, { 
+                            sku: value, 
+                            quantity: 1, 
+                            name: data.item.name, 
+                            unitMrp: data.item.mrpPerQuantity, 
+                            unitPrice: Math.ceil(data.item.sellingPerQuantity), 
+                            price: Math.ceil(data.item.sellingPerQuantity),
+                            allowLoose: data.item.allowLoose,
+                            minQuantity: data.item.minQuantity
+                        }]
+                    })
+                } else {
+                    window.alert(`Item not found: ${value}`)
+                }
+            } catch (error) {
+                console.error('Error fetching item:', error);
+                window.alert(`Error fetching item: ${value}`)
+            } finally {
+                setIsLoading(false);
+                // Clear the input field safely
+                if (myRef.current) {
+                    myRef.current.value = ''
+                }
             }
         }
     }
@@ -69,8 +88,8 @@ export default function SessionControls() {
                     mrp: item.unitMrp || 0,
                     price: item.unitPrice || 0
                 })),
-                customerName: customerName || 'Customer',
-                customerMobile: customerMobile || '',
+                customerName: customerName || 'NA',
+                customerMobile: customerMobile || 'NA',
                 orderNumber: orderNumber
             };
 
@@ -86,18 +105,21 @@ export default function SessionControls() {
         setScannedValue([]);
         setCustomerName('');
         setCustomerMobile('');
+        setFilteredItems([]);
+        setSearchQuery('');
     }
 
     return (
         <Box bg="blue.50" p={4} borderRadius="md">
             <FormControl mb={4}>
-                <FormLabel>Scan Item..</FormLabel>
+                <FormLabel>Scan Item.. {isLoading && <Spinner size="xs" ml={2} color="blue.500" />}</FormLabel>
                 <Input
                     type="text"
                     ref={myRef}
                     onKeyDown={handleKeyDown}
                     placeholder="Scan Item barcode"
                     size="lg"
+                    isDisabled={isLoading}
                     bg="white"
                     autoFocus
                 />
