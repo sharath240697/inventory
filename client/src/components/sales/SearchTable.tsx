@@ -21,7 +21,7 @@ export default function SearchTable() {
 
     const filtered = masterData?.masterData.filter(item =>
       item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      item.barcode.toLowerCase().includes(searchQuery.toLowerCase())
+      item.sku.toLowerCase().includes(searchQuery.toLowerCase())
     ) || [];
     setFilteredItems(filtered);
   };
@@ -33,26 +33,19 @@ export default function SearchTable() {
 
   const handleAddFromSearch = (item: Item_t) => {
     setScannedValue(prevState => {
-      const existingItem = prevState.find(i => i.barcode === item.barcode)
+      const existingItem = prevState.find(i => i.sku === item.sku)
       if (existingItem) {
-        return prevState.map(i =>
-          i.barcode === item.barcode
-            ? {
-              ...i, quantity: i.quantity + 1, price: i.price + Math.ceil(item.sellingPerQuantity),
-              allowLoose: item.allowLoose
-            }
-            : i
-        )
+        return [
+          ...prevState.slice(0, prevState.indexOf(existingItem)),
+          {
+            ...existingItem,
+            quantity: existingItem.quantity + 1,
+            price: Math.ceil((existingItem.quantity + 1) * item.sellingPerQuantity)
+          },
+          ...prevState.slice(prevState.indexOf(existingItem) + 1)
+        ]
       }
-      return [...prevState, {
-        barcode: item.barcode,
-        quantity: 1,
-        name: item.name,
-        unitMrp: item.mrpPerQuantity,
-        unitPrice: Math.ceil(item.sellingPerQuantity),
-        price: Math.ceil(item.sellingPerQuantity),
-        allowLoose: item.allowLoose || false
-      }]
+      return [...prevState, { sku: item.sku, quantity: 1, name: item.name, unitMrp: item.mrpPerQuantity, unitPrice: Math.ceil(item.sellingPerQuantity), price: Math.ceil(item.sellingPerQuantity) }]
     })
   }
 
@@ -121,7 +114,7 @@ export default function SearchTable() {
               </Tr>
             )}
             {filteredItems.map((item) => (
-              <Tr key={item.barcode}>
+              <Tr key={item.sku}>
                 <Td>{item.name}</Td>
                 <Td isNumeric>₹{item.mrpPerQuantity}</Td>
                 <Td isNumeric>₹{Math.ceil(item.sellingPerQuantity)}</Td>

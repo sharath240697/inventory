@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 interface ScannedItemType {
-  barcode: string;
+  sku: string;
   quantity: number;
   name?: string;
   unitMrp?: number;

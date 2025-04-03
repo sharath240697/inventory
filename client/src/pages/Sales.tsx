@@ -4,9 +4,9 @@ import {
 } from '@chakra-ui/react';
 import PriceQRCode from '../components/sales/QRCode';
 import StoreHeader from '../components/StoreHeader';
-import PurchaseTable from '../components/sales/PurchaseTable';
 import SearchTable from '../components/sales/SearchTable';
 import CustomerSessionDetails from '../components/sales/CustomerSessionDetails';
+import Purchase from '../components/sales/Purchase';
 
 
 const Sales: React.FC = () => {
@@ -26,7 +26,7 @@ const Sales: React.FC = () => {
         mx="auto"
       >
         <Flex direction="row" w="100%" gap={6} mt={4}>
-          <PurchaseTable />
+          <Purchase />
           <SearchTable />
         </Flex>
         <PriceQRCode />
