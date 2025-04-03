@@ -658,15 +658,6 @@
             "paidCostPerQuantity": 175.01
         },
         {
-            "barcode": "8901786101009",
-            "name": "Everest Garam Masala 100 g",
-            "quantity": 5,
-            "unit": "NA",
-            "mrpPerQuantity": 100.0,
-            "sellingPerQuantity": 98.0,
-            "paidCostPerQuantity": 95.0
-        },
-        {
             "barcode": "8901786130504",
             "name": "Everest Sabji Masala 50 g",
             "quantity": 4,
@@ -1405,15 +1396,6 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "8909106022478",
-            "name": "Surfexcel Bar",
-            "quantity": 0,
-            "unit": "NA",
-            "mrpPerQuantity": 10.0,
-            "sellingPerQuantity": 10.0,
-            "paidCostPerQuantity": 0
-        },
-        {
             "barcode": "8906057530854",
             "name": "medimix",
             "quantity": 0,
@@ -1591,15 +1573,6 @@
             "unit": "NA",
             "mrpPerQuantity": 30.0,
             "sellingPerQuantity": 29.0,
-            "paidCostPerQuantity": 0
-        },
-        {
-            "barcode": "8901314507327",
-            "name": "Colgate Zig Zag toot brush ",
-            "quantity": 0,
-            "unit": "NA",
-            "mrpPerQuantity": 35.0,
-            "sellingPerQuantity": 30.0,
             "paidCostPerQuantity": 0
         },
         {
@@ -1810,7 +1783,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-001-1000",
+            "barcode": "sns-001-1000",
             "name": "Sugar 1KG",
             "quantity": 0,
             "unit": "NA",
@@ -1819,7 +1792,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-001-500",
+            "barcode": "sns-001-500",
             "name": "Sugar 500 gms",
             "quantity": 0,
             "unit": "NA",
@@ -1828,7 +1801,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-001-250",
+            "barcode": "sns-001-250",
             "name": "Sugar 250 gms",
             "quantity": 0,
             "unit": "NA",
@@ -1837,7 +1810,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-002-2000",
+            "barcode": "sns-002-2000",
             "name": "AVALAKKI 2KG",
             "quantity": 0,
             "unit": "NA",
@@ -1846,7 +1819,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-002-1000",
+            "barcode": "sns-002-1000",
             "name": "AVALAKKI 1KG",
             "quantity": 0,
             "unit": "NA",
@@ -1855,7 +1828,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-002-500",
+            "barcode": "sns-002-500",
             "name": "AVALAKKI 500 gms",
             "quantity": 0,
             "unit": "NA",
@@ -1864,7 +1837,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-004-500",
+            "barcode": "sns-004-500",
             "name": "WHOLE MOONG HESRUKAALU 500 gms",
             "quantity": 0,
             "unit": "NA",
@@ -1873,7 +1846,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-004-250",
+            "barcode": "sns-004-250",
             "name": "WHOLE MOONG HESRUKAALU 250 gms",
             "quantity": 0,
             "unit": "NA",
@@ -1882,7 +1855,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-005-500",
+            "barcode": "sns-005-500",
             "name": "GRAM KADLEKAALU 500 gms",
             "quantity": 0,
             "unit": "NA",
@@ -1891,7 +1864,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-005-250",
+            "barcode": "sns-005-250",
             "name": "GRAM KADLEKAALU 250 gms",
             "quantity": 0,
             "unit": "NA",
@@ -1900,7 +1873,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-006-500",
+            "barcode": "sns-006-500",
             "name": "GROUNDNUT KADLEBEEJA 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1909,7 +1882,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-006-250",
+            "barcode": "sns-006-250",
             "name": "GROUNDNUT KADLEBEEJA 250 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1918,7 +1891,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-007-500",
+            "barcode": "sns-007-500",
             "name": "FRIED GRAM HURUGADALE 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1927,7 +1900,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-007-250",
+            "barcode": "sns-007-250",
             "name": "FRIED GRAM HURUGADALE 250 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1936,7 +1909,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-008-1000",
+            "barcode": "sns-008-1000",
             "name": "THOOR DAL THOGARI BELE 1KG",
             "quantity": 0,
             "unit": "NA",
@@ -1945,7 +1918,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-008-500",
+            "barcode": "sns-008-500",
             "name": "THOOR DAL THOGARI BELE 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1954,7 +1927,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-008-250",
+            "barcode": "sns-008-250",
             "name": "THOOR DAL THOGARI BELE 250 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1963,7 +1936,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-009-250",
+            "barcode": "sns-009-250",
             "name": "PEAS VANA BATANI 250 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1972,7 +1945,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-010-500",
+            "barcode": "sns-010-500",
             "name": "GRAM DAL KADLE BELE 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1981,7 +1954,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-010-250",
+            "barcode": "sns-010-250",
             "name": "GRAM DAL KADLE BELE 250 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -1990,7 +1963,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-011-1000",
+            "barcode": "sns-011-1000",
             "name": "HORSE GRAM 1 KG CLEANED",
             "quantity": 0,
             "unit": "NA",
@@ -1999,7 +1972,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-012-500",
+            "barcode": "sns-012-500",
             "name": "MOONG DAL HESRU KAALU 500",
             "quantity": 0,
             "unit": "NA",
@@ -2008,7 +1981,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-012-250",
+            "barcode": "sns-012-250",
             "name": "MOONG DAL HESRU KAALU 250",
             "quantity": 0,
             "unit": "NA",
@@ -2017,7 +1990,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-013-50",
+            "barcode": "sns-013-50",
             "name": "PEPPER MENASU 50 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2026,7 +1999,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-014-500",
+            "barcode": "sns-014-500",
             "name": "KABUL KADLE KAALU 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2035,7 +2008,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-014-250",
+            "barcode": "sns-014-250",
             "name": "KABUL KADLE KAALU 250 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2044,7 +2017,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-016-1000",
+            "barcode": "sns-016-1000",
             "name": "RAGI POWDER RAGI ITTU 1 KG",
             "quantity": 0,
             "unit": "NA",
@@ -2053,7 +2026,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-016-500",
+            "barcode": "sns-016-500",
             "name": "RAGI POWDER RAGI ITTU 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2062,7 +2035,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-017-4000",
+            "barcode": "sns-017-4000",
             "name": "BULLET RICE KOLLAM 4 KG ",
             "quantity": 0,
             "unit": "NA",
@@ -2071,7 +2044,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-017-3000",
+            "barcode": "sns-017-3000",
             "name": "BULLET RICE KOLLAM 3 KG",
             "quantity": 0,
             "unit": "NA",
@@ -2080,7 +2053,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-017-2000",
+            "barcode": "sns-017-2000",
             "name": "BULLET RICE KOLLAM 2 KG",
             "quantity": 0,
             "unit": "NA",
@@ -2089,7 +2062,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-017-1000",
+            "barcode": "sns-017-1000",
             "name": "BULLET RICE KOLLAM 1 KG",
             "quantity": 0,
             "unit": "NA",
@@ -2098,7 +2071,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-015-500",
+            "barcode": "sns-015-500",
             "name": "AVAREBELE 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2107,7 +2080,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-015-250",
+            "barcode": "sns-015-250",
             "name": "AVAREBELE 250 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2116,7 +2089,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-022-200",
+            "barcode": "sns-022-200",
             "name": "HARISHINA KOMBU 200",
             "quantity": 0,
             "unit": "NA",
@@ -2125,7 +2098,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-018-25",
+            "barcode": "sns-018-25",
             "name": "JEERIGE 25 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2134,7 +2107,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-018-50",
+            "barcode": "sns-018-50",
             "name": "JEERIGE 50 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2143,7 +2116,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-018-100",
+            "barcode": "sns-018-100",
             "name": "JEERIGE 100 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2152,7 +2125,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-018-200",
+            "barcode": "sns-018-200",
             "name": "JEERIGE 200 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2161,7 +2134,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-003-1000",
+            "barcode": "sns-003-1000",
             "name": "BANSI RAVE 1 KG",
             "quantity": 0,
             "unit": "NA",
@@ -2170,7 +2143,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-003-500",
+            "barcode": "sns-003-500",
             "name": "BANSI RAVE 500 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2179,7 +2152,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-019-1000",
+            "barcode": "sns-019-1000",
             "name": "GODHI ITTU 1 KG WHOLSALE",
             "quantity": 0,
             "unit": "NA",
@@ -2188,7 +2161,7 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-021-100",
+            "barcode": "sns-021-100",
             "name": "GUNTURU MENSINKAYI 100 GMS",
             "quantity": 0,
             "unit": "NA",
@@ -2197,13 +2170,35 @@
             "paidCostPerQuantity": 0
         },
         {
-            "barcode": "SNS-020-500",
+            "barcode": "sns-020-500",
             "name": "CHIROTI RAVE 500 GMS",
             "quantity": 0,
             "unit": "NA",
             "mrpPerQuantity": 35.0,
             "sellingPerQuantity": 30.0,
             "paidCostPerQuantity": 0
+        },
+        {
+            "barcode": "sns-021-1000",
+            "name": "v-Bendekai",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 50.0,
+            "sellingPerQuantity": 45.0,
+            "paidCostPerQuantity": 0,
+            "allowLoose": true,
+            "minQuantity": 0.1
+        },
+        {
+            "barcode": "sns-022-1000",
+            "name": "v-sambar southekai",
+            "quantity": 0,
+            "unit": "NA",
+            "mrpPerQuantity": 35.0,
+            "sellingPerQuantity": 30.0,
+            "paidCostPerQuantity": 0,
+            "allowLoose": true,
+            "minQuantity": 0.1
         }
     ]
 }
