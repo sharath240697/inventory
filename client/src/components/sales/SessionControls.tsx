@@ -16,8 +16,8 @@ export default function SessionControls() {
     const postApi = usePostApi<PrintResponse>();
     const myRef = useRef<HTMLInputElement>(null);
     const [isLoading, setIsLoading] = useState(false);
-        
-    const { scannedValue, setScannedValue } = useSales();
+
+    const { scannedValue, setScannedValue, looseItem, setLooseItem } = useSales();
     const { setSearchQuery, setFilteredItems } = useSearch();
     const { customerName, setCustomerName, customerMobile, setCustomerMobile } = useSales();
 
@@ -29,38 +29,66 @@ export default function SessionControls() {
                 window.alert("Please enter a value")
                 return
             }
-            
+
             setIsLoading(true);
             try {
                 const response = await fetch(`http://localhost:3000/get-item?sku=${encodeURIComponent(value)}`);
                 const data = await response.json();
-                
+
                 if (data.item) {
-                    setScannedValue(prevState => {
-                        const existingItemIndex = prevState.findIndex(item => item.sku === value)
-                        if (existingItemIndex !== -1) {
-                            const existingItem = prevState[existingItemIndex]
-                            return [
-                                ...prevState.slice(0, existingItemIndex),
-                                {
-                                    ...existingItem,
-                                    quantity: existingItem.quantity + 1,
-                                    price: Math.ceil((existingItem.quantity + 1) * data.item.sellingPerQuantity)
-                                },
-                                ...prevState.slice(existingItemIndex + 1)
-                            ]
-                        }
-                        return [...prevState, { 
-                            sku: value, 
-                            quantity: 1, 
-                            name: data.item.name, 
-                            unitMrp: data.item.mrpPerQuantity, 
-                            unitPrice: Math.ceil(data.item.sellingPerQuantity), 
-                            price: Math.ceil(data.item.sellingPerQuantity),
-                            allowLoose: data.item.allowLoose,
-                            minQuantity: data.item.minQuantity
-                        }]
-                    })
+                    if (data.item.allowLoose) {
+                        setLooseItem(prevState => {
+                            const existingItemIndex = prevState.findIndex(item => item.sku === value)
+                            if (existingItemIndex !== -1) {
+                                const existingItem = prevState[existingItemIndex]
+                                return [
+                                    ...prevState.slice(0, existingItemIndex),
+                                    {
+                                        ...existingItem,
+                                        quantity: existingItem.quantity + 1,
+                                        price: Math.ceil((existingItem.quantity + 1) * data.item.sellingPerQuantity)
+                                    },
+                                    ...prevState.slice(existingItemIndex + 1)
+                                ]
+                            }
+                            return [...prevState, {
+                                sku: value,
+                                quantity: 1,
+                                name: data.item.name,
+                                unitMrp: data.item.mrpPerQuantity,
+                                unitPrice: Math.ceil(data.item.sellingPerQuantity),
+                                price: Math.ceil(data.item.sellingPerQuantity),
+                                allowLoose: data.item.allowLoose,
+                                minQuantity: data.item.minQuantity
+                            }]
+                        })
+                    } else {
+                        setScannedValue(prevState => {
+                            const existingItemIndex = prevState.findIndex(item => item.sku === value)
+                            if (existingItemIndex !== -1) {
+                                const existingItem = prevState[existingItemIndex]
+                                return [
+                                    ...prevState.slice(0, existingItemIndex),
+                                    {
+                                        ...existingItem,
+                                        quantity: existingItem.quantity + 1,
+                                        price: Math.ceil((existingItem.quantity + 1) * data.item.sellingPerQuantity)
+                                    },
+                                    ...prevState.slice(existingItemIndex + 1)
+                                ]
+                            }
+                            return [...prevState, {
+                                sku: value,
+                                quantity: 1,
+                                name: data.item.name,
+                                unitMrp: data.item.mrpPerQuantity,
+                                unitPrice: Math.ceil(data.item.sellingPerQuantity),
+                                price: Math.ceil(data.item.sellingPerQuantity),
+                                allowLoose: data.item.allowLoose,
+                                minQuantity: data.item.minQuantity
+                            }]
+                        })
+                    }
                 } else {
                     window.alert(`Item not found: ${value}`)
                 }
@@ -80,7 +108,7 @@ export default function SessionControls() {
     const handlePrint = async () => {
         try {
             const orderNumber = `ORD-${Date.now()}`;
-            const filteredItems = scannedValue.filter(item => item.quantity > 0);
+            const filteredItems = [...scannedValue, ...looseItem].filter(item => item.quantity > 0);
             const requestBody = {
                 items: filteredItems.map((item: ScanType) => ({
                     name: item.name || '',

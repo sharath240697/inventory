@@ -1,11 +1,14 @@
-import { Box, Flex, IconButton, Input, Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
-import { useSales } from "../../context/SalesContext";
+import { Box, Button, Flex, IconButton, Table, Tbody, Td, Th, Thead, Tr } from "@chakra-ui/react";
 import { AddIcon, DeleteIcon, MinusIcon } from "@chakra-ui/icons";
+import { usePurchaseTable } from "../../context/PurchaseTableContext";
+import PurchaseQuantityModal from "./PurchaseQuantityModal";
 
 export default function PurchaseTable() {
-    const { scannedValue, setScannedValue,
-    } = useSales();
 
+    const { scannedValue, setScannedValue,
+        onOpen, setSelectedItemIndex,
+        setInputValue, setIsValid,
+    } = usePurchaseTable();
 
     const handleQuantityAction = (index: number, action: 'increase' | 'decrease') => {
         setScannedValue(prevState => {
@@ -17,8 +20,8 @@ export default function PurchaseTable() {
                 ...prevState.slice(0, index),
                 {
                     ...item,
-                    quantity: newQuantity,
-                    price: newQuantity * Math.ceil(item.unitPrice || 0)
+                    quantity: parseFloat(newQuantity.toFixed(3)),
+                    price: Math.ceil(newQuantity * (item.unitPrice || 0))
                 },
                 ...prevState.slice(index + 1)
             ]
@@ -32,100 +35,85 @@ export default function PurchaseTable() {
         ])
     }
 
-    const handleQuantityChange = (index: number, value: string) => {
-        const item = scannedValue[index]
-        const newQuantity = item.allowLoose ? parseFloat(value) : parseInt(value)
-        if (isNaN(newQuantity) || newQuantity <= 0) {
-            return
-        }
-
-        setScannedValue(prevState => {
-            const item = prevState[index]
-            return [
-                ...prevState.slice(0, index),
-                {
-                    ...item,
-                    quantity: newQuantity,
-                    price: newQuantity * Math.ceil(item.unitPrice || 0)
-                },
-                ...prevState.slice(index + 1)
-            ]
-        })
-    }
-
     return (
-        <Box
-            overflowX="auto"
-            overflowY="auto"
-            maxHeight="400px"
-            borderRadius="md"
-            border="1px"
-            borderColor="gray.200"
-        >
-            <Table variant="simple" size="md">
-                <Thead>
-                    <Tr bg="gray.50">
-                        <Th>Item</Th>
-                        <Th isNumeric>Qty</Th>
-                        <Th isNumeric>MRP</Th>
-                        <Th isNumeric>Price</Th>
-                        <Th isNumeric>Total</Th>
-                        <Th></Th>
-                    </Tr>
-                </Thead>
-                <Tbody>
-                    {scannedValue.map((item, index) => (
-                        <Tr key={index}>
-                            <Td>{item.name}</Td>
-                            <Td isNumeric>
-                                <Flex alignItems="center" gap={2}>
+        <Box>
+            <Box
+                overflowX="auto"
+                overflowY="auto"
+                maxHeight="400px"
+                borderRadius="md"
+                border="1px"
+                borderColor="gray.200"
+                bg="white"
+                shadow="sm"
+            >
+                <Table size="sm" variant="simple">
+                    <Thead>
+                        <Tr>
+                            <Th>Item</Th>
+                            <Th>Quantity</Th>
+                            <Th>MRP</Th>
+                            <Th>Unit Price</Th>
+                            <Th>Price</Th>
+                            <Th></Th>
+                        </Tr>
+                    </Thead>
+                    <Tbody>
+                        {scannedValue.map((item, index) => (
+                            <Tr key={item.sku}>
+                                <Td>{item.name}</Td>
+                                <Td>
+                                    <Flex alignItems="center" gap={2}>
+                                        <IconButton
+                                            size="sm"
+                                            variant="outline"
+                                            colorScheme="red"
+                                            aria-label="Decrease quantity"
+                                            icon={<MinusIcon />}
+                                            onClick={() => handleQuantityAction(index, 'decrease')}
+                                            isDisabled={item.quantity <= (item.minQuantity || (item.allowLoose ? 0.1 : 1))}
+                                        />
+                                        <Button
+                                            size="sm"
+                                            aria-label="Enter quantity"
+                                            onClick={() => {
+                                                setSelectedItemIndex(index);
+                                                setInputValue(item.quantity.toString());
+                                                setIsValid(true);
+                                                onOpen();
+                                            }}
+                                        >
+                                            {item.quantity}
+                                        </Button>
+                                        <IconButton
+                                            size="sm"
+                                            variant="outline"
+                                            colorScheme="green"
+                                            aria-label="Increase quantity"
+                                            icon={<AddIcon />}
+                                            onClick={() => handleQuantityAction(index, 'increase')}
+                                        />
+                                    </Flex>
+                                </Td>
+                                <Td isNumeric>₹{item.unitMrp}</Td>
+                                <Td isNumeric>₹{item.unitPrice}</Td>
+                                <Td isNumeric>₹{item.price}</Td>
+                                <Td>
                                     <IconButton
                                         size="sm"
                                         variant="outline"
                                         colorScheme="red"
-                                        aria-label="Decrease quantity"
-                                        icon={<MinusIcon />}
-                                        onClick={() => handleQuantityAction(index, 'decrease')}
-                                        isDisabled={item.quantity <= (item.minQuantity || (item.allowLoose ? 0.1 : 1))}
+                                        aria-label="Remove item"
+                                        icon={<DeleteIcon />}
+                                        onClick={() => handleRemoveItem(index)}
                                     />
-                                    <Input
-                                        type="number"
-                                        size="md"
-                                        value={item.allowLoose ? item.quantity.toFixed(3) : item.quantity}
-                                        onChange={(e) => handleQuantityChange(index, e.target.value)}
-                                        min={item.minQuantity || (item.allowLoose ? "0.1" : 1)}
-                                        step={item.allowLoose ? "0.1" : 1}
-                                        width="100px"
-                                        fontSize="xl"
-                                        textAlign="center"
-                                    />
-                                    <IconButton
-                                        size="sm"
-                                        variant="outline"
-                                        colorScheme="green"
-                                        aria-label="Increase quantity"
-                                        icon={<AddIcon />}
-                                        onClick={() => handleQuantityAction(index, 'increase')}
-                                    />
-                                </Flex>
-                            </Td>
-                            <Td isNumeric>₹{item.unitMrp}</Td>
-                            <Td isNumeric>₹{item.unitPrice}</Td>
-                            <Td isNumeric>₹{item.price.toFixed(2)}</Td>
-                            <Td>
-                                <IconButton
-                                    size="sm"
-                                    variant="outline"
-                                    colorScheme="red"
-                                    aria-label="Remove item"
-                                    icon={<DeleteIcon />}
-                                    onClick={() => handleRemoveItem(index)}
-                                />
-                            </Td>
-                        </Tr>
-                    ))}
-                </Tbody>
-            </Table>
+                                </Td>
+                            </Tr>
+                        ))}
+                    </Tbody>
+                </Table>
+            </Box>
+            <PurchaseQuantityModal />
         </Box>
     )
 }

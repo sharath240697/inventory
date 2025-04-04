@@ -7,8 +7,8 @@ import { useGetApi } from "../../hooks/useGetApi";
 
 export default function SearchTable() {
   const { searchQuery, setSearchQuery, filteredItems, setFilteredItems } = useSearch();
-  const { setScannedValue } = useSales();
-  
+  const { setScannedValue, setLooseItem } = useSales();
+
   // Only make the API call when currentSearchQuery is updated
   const { data: searchResults, loading: isSearching } = useGetApi<{ items: Item_t[] }>(
     searchQuery ? `http://localhost:3000/search?searchQuery=${encodeURIComponent(searchQuery)}` : ''
@@ -19,11 +19,11 @@ export default function SearchTable() {
       setFilteredItems([]);
       return;
     }
-    
+
     // Update the search query to trigger the API call
     setSearchQuery(searchQuery);
   }, [searchQuery, setFilteredItems]);
-  
+
   // Update filteredItems when search results change
   useEffect(() => {
     if (searchResults) {
@@ -48,21 +48,43 @@ export default function SearchTable() {
   };
 
   const handleAddFromSearch = (item: Item_t) => {
-    setScannedValue(prevState => {
-      const existingItem = prevState.find(i => i.sku === item.sku)
-      if (existingItem) {
-        return [
-          ...prevState.slice(0, prevState.indexOf(existingItem)),
-          {
-            ...existingItem,
-            quantity: existingItem.quantity + 1,
-            price: Math.ceil((existingItem.quantity + 1) * item.sellingPerQuantity)
-          },
-          ...prevState.slice(prevState.indexOf(existingItem) + 1)
-        ]
-      }
-      return [...prevState, { sku: item.sku, quantity: 1, name: item.name, unitMrp: item.mrpPerQuantity, unitPrice: Math.ceil(item.sellingPerQuantity), price: Math.ceil(item.sellingPerQuantity) }]
-    })
+    if (item.allowLoose) {
+      setLooseItem(prevState => {
+        const existingItem = prevState.find(i => i.sku === item.sku)
+        if (existingItem) {
+          return [
+            ...prevState.slice(0, prevState.indexOf(existingItem)),
+            {
+              ...existingItem,
+              quantity: existingItem.quantity + 1,
+              price: Math.ceil((existingItem.quantity + 1) * item.sellingPerQuantity)
+            },
+            ...prevState.slice(prevState.indexOf(existingItem) + 1)
+          ]
+        }
+        return [...prevState, {
+          sku: item.sku, quantity: 1, name: item.name,
+          allowLoose: item.allowLoose,
+          unitMrp: item.mrpPerQuantity, unitPrice: Math.ceil(item.sellingPerQuantity), price: Math.ceil(item.sellingPerQuantity)
+        }]
+      })
+    } else {
+      setScannedValue(prevState => {
+        const existingItem = prevState.find(i => i.sku === item.sku)
+        if (existingItem) {
+          return [
+            ...prevState.slice(0, prevState.indexOf(existingItem)),
+            {
+              ...existingItem,
+              quantity: existingItem.quantity + 1,
+              price: Math.ceil((existingItem.quantity + 1) * item.sellingPerQuantity)
+            },
+            ...prevState.slice(prevState.indexOf(existingItem) + 1)
+          ]
+        }
+        return [...prevState, { sku: item.sku, quantity: 1, name: item.name, unitMrp: item.mrpPerQuantity, unitPrice: Math.ceil(item.sellingPerQuantity), price: Math.ceil(item.sellingPerQuantity) }]
+      })
+    }
   }
 
 

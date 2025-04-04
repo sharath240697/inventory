@@ -137,7 +137,7 @@ app.post("/print-bill", async (req, res) => {
   try {
     const { items, customerName, customerMobile, orderNumber } = req.body;
 
-    const total = items.reduce((total, item) => total + item.quantity * item.price, 0);
+    const total = items.reduce((total, item) => total + Math.ceil(item.quantity * item.price), 0);
     // Initialize the receipt printer
     const encoder = new ReceiptPrinterEncoder({
       columns: 48
@@ -166,14 +166,14 @@ app.post("/print-bill", async (req, res) => {
     itemsTable = [['Item', 'Q', 'MRP', 'UPrice', 'Price']]
     items.forEach(item => {
       itemsTable.push([item.name.length > 15 ? `${item.name.slice(0, 15)}...` : item.name,
-      `${item.quantity}x`, `${item.mrp}`, `${item.price}`, `${item.quantity * item.price}`])
+      `${item.quantity}x`, `${item.mrp}`, `${item.price}`, `${Math.ceil(item.quantity * item.price)}`])
     })
     encoder.table([
       { width: 18, marginRight: 2, align: 'left', size: { width: 1, height: 1 } },
-      { width: 3, marginRight: 2, align: 'right', size: { width: 1, height: 1 } },
       { width: 5, marginRight: 2, align: 'right', size: { width: 1, height: 1 } },
+      { width: 4, marginRight: 2, align: 'right', size: { width: 1, height: 1 } },
       { width: 6, marginRight: 2, align: 'right', size: { width: 1, height: 1 } },
-      { width: 6, marginRight: 2, align: 'right', size: { width: 1, height: 1 } }
+      { width: 5, marginRight: 2, align: 'right', size: { width: 1, height: 1 } }
     ], itemsTable, { rowHeight: 1 });
 
     encoder
@@ -181,7 +181,7 @@ app.post("/print-bill", async (req, res) => {
       .align('left')
       .text(`Total: `)
       .align('right')
-      .text(`${total.toFixed(2)}`, { size: { width: 1, height: 2 } })
+      .text(`${total}`, { size: { width: 1, height: 2 } })
       .newline()
       .align('center')
       // .text('Scan QR code to pay via UPI')

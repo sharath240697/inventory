@@ -13,6 +13,8 @@ interface ScannedItemType {
 
 interface SalesContextType {
   scannedValue: ScannedItemType[];
+  looseItem: ScannedItemType[];
+  setLooseItem: React.Dispatch<React.SetStateAction<ScannedItemType[]>>;
   setScannedValue: React.Dispatch<React.SetStateAction<ScannedItemType[]>>;
   totalPrice: number;
   setTotalPrice: React.Dispatch<React.SetStateAction<number>>;
@@ -26,17 +28,20 @@ const SalesContext = createContext<SalesContextType | undefined>(undefined);
 
 export function SalesProvider({ children }: { children: React.ReactNode }) {
   const [scannedValue, setScannedValue] = useState<ScannedItemType[]>([]);
+  const [looseItem, setLooseItem] = useState<ScannedItemType[]>([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [customerName, setCustomerName] = useState('');
   const [customerMobile, setCustomerMobile] = useState('');
 
   useEffect(() => {
-    const total = scannedValue.reduce((sum, item) => sum + (item.price || 0), 0);
+    const total = [...scannedValue, ...looseItem].reduce((sum, item) => sum + (item.price || 0), 0);
     setTotalPrice(Math.ceil(total));
-  }, [scannedValue]);
+  }, [scannedValue, looseItem]);
 
   return (
-    <SalesContext.Provider value={{ scannedValue, setScannedValue, totalPrice, setTotalPrice, customerName, setCustomerName, customerMobile, setCustomerMobile }}>
+    <SalesContext.Provider value={{ scannedValue, setScannedValue, totalPrice, setTotalPrice, 
+      looseItem, setLooseItem,
+      customerName, setCustomerName, customerMobile, setCustomerMobile }}>
       {children}
     </SalesContext.Provider>
   );
