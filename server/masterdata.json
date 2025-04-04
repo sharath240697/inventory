@@ -2179,23 +2179,12 @@
             "paidCostPerQuantity": 0
         },
         {
-            "sku": "sns-021-1000",
-            "name": "v-Bendekai",
+            "sku": "sns-misc-000",
+            "name": "misc",
             "quantity": 0,
             "unit": "NA",
-            "mrpPerQuantity": 50.0,
-            "sellingPerQuantity": 45.0,
-            "paidCostPerQuantity": 0,
-            "allowLoose": true,
-            "minQuantity": 0.1
-        },
-        {
-            "sku": "sns-022-1000",
-            "name": "v-sambar southekai",
-            "quantity": 0,
-            "unit": "NA",
-            "mrpPerQuantity": 35.0,
-            "sellingPerQuantity": 30.0,
+            "mrpPerQuantity": 0,
+            "sellingPerQuantity": 0,
             "paidCostPerQuantity": 0,
             "allowLoose": true,
             "minQuantity": 0.1

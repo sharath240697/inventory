@@ -7,7 +7,7 @@ import { useGetApi } from "../../hooks/useGetApi";
 
 export default function SearchTable() {
   const { searchQuery, setSearchQuery, filteredItems, setFilteredItems } = useSearch();
-  const { setScannedValue, setLooseItem } = useSales();
+  const { setScannedValue, setLooseItem, looseItem } = useSales();
 
   // Only make the API call when currentSearchQuery is updated
   const { data: searchResults, loading: isSearching } = useGetApi<{ items: Item_t[] }>(
@@ -22,7 +22,7 @@ export default function SearchTable() {
 
     // Update the search query to trigger the API call
     setSearchQuery(searchQuery);
-  }, [searchQuery, setFilteredItems]);
+  }, [searchQuery, setFilteredItems, setSearchQuery]);
 
   // Update filteredItems when search results change
   useEffect(() => {
@@ -165,6 +165,7 @@ export default function SearchTable() {
                     size="sm"
                     colorScheme="blue"
                     onClick={() => handleAddFromSearch(item)}
+                    isDisabled={item.name == 'misc' && looseItem.find(item => item.name == 'misc') != undefined}
                   >
                     Add
                   </Button>
